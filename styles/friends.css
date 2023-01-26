@@ -1,0 +1,50 @@
+/* Friends Section */
+.friends {
+    width: 980px;
+    margin: 0 auto 100px auto;
+    position: relative;
+}
+
+.friends ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 74px;
+}
+
+.friends ul li {
+    margin: auto;
+}
+
+.absolute-background {
+    background-image: url('../assets/images/rain.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+}
+
+@media(max-width: 1200px) {
+    .friends {
+        width: calc(100% - 40px);
+    }
+
+    .friends ul {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+}
+
+@media(max-width: 850px) {
+    .friends {
+        width: calc(100% - 40px);
+    }
+
+    .friends ul {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+}

@@ -1,0 +1,74 @@
+/* invest */
+.invest {
+  display: block;
+  position: relative;
+  margin-bottom: 167px;
+}
+
+.invest-wr {
+  width: 1036px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 163px;
+}
+
+.invest-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 818px;
+  height: 461px;
+}
+
+.invest-left {
+  padding-top: 40px;
+}
+
+.invest h1 {
+  font-family: var(--inter-regular);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  color: var(--green);
+  margin-bottom: 32px;
+}
+
+.invest h1 span {
+  color: var(--orange);
+}
+
+.invest p {
+  font-family: var(--gilroy-semibold);
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  margin-bottom: 46px;
+}
+
+.invest button {
+  width: 155px;
+  height: 54px;
+}
+
+@media (max-width: 1200px) {
+  .invest-wr {
+    width: 850px;
+    grid-column-gap: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .invest-wr {
+    display: block;
+    width: 360px;
+  }
+
+  .invest-left {
+    margin-bottom: 30px;
+  }
+
+  .invest-right img {
+    width: 100%;
+  }
+}

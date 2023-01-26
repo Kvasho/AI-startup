@@ -1,459 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/animations.css">
-    <link rel="stylesheet" href="./styles/common.css">
-    <link rel="stylesheet" href="./styles/main-page.css">
-    <link rel="icon" href="./assets/icons/Logo.svg" type="image/icon type">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/animations.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/main-page.css" />
+    <link rel="stylesheet" href="./styles/choice.css" />
+    <link rel="stylesheet" href="./styles/invest.css" />
+    <link rel="stylesheet" href="./styles/friends.css" />
+    <link rel="stylesheet" href="./styles/statistics.css" />
+    <link rel="stylesheet" href="./styles/subscribe.css" />
+    <link rel="stylesheet" href="./styles/traffic.css" />
+    <link rel="stylesheet" href="./styles/startup.css" />
+    <link rel="stylesheet" href="./styles/features.css" />
+    <link rel="icon" href="./assets/icons/Logo.svg" type="image/icon type" />
     <title>AI Power</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- HEADER SECTION -->
     <header class="header header-mobile">
-        <div class="header-left">
-            <div>
-                <a href="./index.html">
-                    <img src="./assets/icons/Logo.svg" alt="Main Logo" class="header-logo">
-                </a>
-                
-            </div>                        
+      <div class="header-left">
+        <div>
+          <a href="./index.html">
+            <img
+              src="./assets/icons/Logo.svg"
+              alt="Main Logo"
+              class="header-logo"
+            />
+          </a>
         </div>
-        <div class="header-middle">
-            <nav class="header-nav">
-                <ul>
-                    <li>
-                        <a href="#yourChoice" class="header-nav-item hover-underline-animation">why us</a>
-                    </li>
-                    <li>
-                        <a href="#statistics" class="header-nav-item hover-underline-animation">statistics</a>
-                    </li>                   
-                    <li>
-                        <a href="#pricing" class="header-nav-item hover-underline-animation">pricing</a>
-                    </li>
-                    <li>
-                        <a href="#invest" class="header-nav-item hover-underline-animation">invest</a>
-                    </li>
-                    <li>
-                        <a href="#subscribe" class="header-nav-item hover-underline-animation">subscribe</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="container" onclick="this.classList.toggle('active')">
-                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 200 200">
-                      <g stroke-width="6.5" stroke-linecap="round">
-                        <path
-                          d="M72 82.286h28.75"
-                          fill="#009100"
-                          fill-rule="evenodd"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
-                          fill="none"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M72 125.143h28.75"
-                          fill="#009100"
-                          fill-rule="evenodd"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
-                          fill="none"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M100.75 82.286h28.75"
-                          fill="#009100"
-                          fill-rule="evenodd"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M100.75 125.143h28.75"
-                          fill="#009100"
-                          fill-rule="evenodd"
-                          stroke="#fff"
-                        />
-                      </g>
-                    </svg>
-            </div>
+      </div>
+      <div class="header-middle">
+        <nav class="header-nav">
+          <ul>
+            <li>
+              <a
+                href="#yourChoice"
+                class="header-nav-item hover-underline-animation"
+                >why us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#statistics"
+                class="header-nav-item hover-underline-animation"
+                >statistics</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                class="header-nav-item hover-underline-animation"
+                >pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#invest"
+                class="header-nav-item hover-underline-animation"
+                >invest</a
+              >
+            </li>
+            <li>
+              <a
+                href="#subscribe"
+                class="header-nav-item hover-underline-animation"
+                >subscribe</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="container" onclick="this.classList.toggle('active')">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="150"
+            height="150"
+            viewBox="0 0 200 200"
+          >
+            <g stroke-width="6.5" stroke-linecap="round">
+              <path
+                d="M72 82.286h28.75"
+                fill="#009100"
+                fill-rule="evenodd"
+                stroke="#fff"
+              />
+              <path
+                d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+                fill="none"
+                stroke="#fff"
+              />
+              <path
+                d="M72 125.143h28.75"
+                fill="#009100"
+                fill-rule="evenodd"
+                stroke="#fff"
+              />
+              <path
+                d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+                fill="none"
+                stroke="#fff"
+              />
+              <path
+                d="M100.75 82.286h28.75"
+                fill="#009100"
+                fill-rule="evenodd"
+                stroke="#fff"
+              />
+              <path
+                d="M100.75 125.143h28.75"
+                fill="#009100"
+                fill-rule="evenodd"
+                stroke="#fff"
+              />
+            </g>
+          </svg>
         </div>
-        <div class="header-right">
-            
-            <button class="header-sign-in">sign in</button>
-            <button class="header-sign-up">sign up</button>
-        </div>
+      </div>
+      <div class="header-right">
+        <button class="header-sign-in">sign in</button>
+        <button class="header-sign-up">sign up</button>
+      </div>
     </header>
-    
+
     <!-- FIRST SECTION -->
-   
+
     <section class="main">
-        <div class="main-wr">
-            <div class="main-text">
-                <h1>Many reasons to get up and 
-                    start to get back in the business
-                </h1>
-                <p class="main-text-paragraph">The harder you work for something, 
-                    the greater you ll feel when you achieve it
-                </p>
-                <div class="main-button-group">
-                    <button class="header-sign-in">Learn More</button>
-                    <button class="header-sign-up">Demo</button>
-                </div>
-                <div class="main-text-card">
-                    <div class="main-card-video">
-                        <iframe width="100%" height="80px"
-                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                        </iframe>
-                    </div>
-                    <div class="main-card-text">
-                        <h5>The harder you work for something, the greater you’ll feel when you achieve it.</h5>
-                        <p class="main-card-paragraph">Watch preview</p>
-                    </div>
-                </div>
+      <div class="main-wr">
+        <div class="main-text">
+          <h1>Many reasons to get up and start to get back in the business</h1>
+          <p class="main-text-paragraph">
+            The harder you work for something, the greater you ll feel when you
+            achieve it
+          </p>
+          <div class="main-button-group">
+            <button class="header-sign-in">Learn More</button>
+            <button class="header-sign-up">Demo</button>
+          </div>
+          <div class="main-text-card">
+            <div class="main-card-video">
+              <iframe
+                width="100%"
+                height="80px"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY"
+              >
+              </iframe>
             </div>
-            <div class="main-image">
-                <img src="./assets/images/Frame.svg" alt="AI main image" class="vibrate-1 main-img">
+            <div class="main-card-text">
+              <h5>
+                The harder you work for something, the greater you’ll feel when
+                you achieve it.
+              </h5>
+              <p class="main-card-paragraph">Watch preview</p>
             </div>
+          </div>
         </div>
+        <div class="main-image">
+          <img
+            src="./assets/images/Frame.svg"
+            alt="AI main image"
+            class="vibrate-1 main-img"
+          />
+        </div>
+      </div>
     </section>
 
     <!-- Company Friend's Section -->
 
     <section class="friends">
-        <ul>
-            <li><img src="./assets/icons/profitwell.svg" alt="" srcset=""></li>
-            <li><img src="./assets/icons/appcues.svg" alt="" srcset=""></li>
-            <li><img src="./assets/icons/shipbob.svg" alt="" srcset=""></li>
-            <li><img src="./assets/icons/bench.svg" alt="" srcset=""></li>
-            <li><img src="./assets/icons/subby.svg" alt="" srcset=""></li>
-            <li><img src="./assets/icons/demio.svg" alt="" srcset=""></li>
-        </ul>
-        <!-- <div class="absolute-background">
+      <ul>
+        <li><img src="./assets/icons/profitwell.svg" alt="" srcset="" /></li>
+        <li><img src="./assets/icons/appcues.svg" alt="" srcset="" /></li>
+        <li><img src="./assets/icons/shipbob.svg" alt="" srcset="" /></li>
+        <li><img src="./assets/icons/bench.svg" alt="" srcset="" /></li>
+        <li><img src="./assets/icons/subby.svg" alt="" srcset="" /></li>
+        <li><img src="./assets/icons/demio.svg" alt="" srcset="" /></li>
+      </ul>
+      <!-- <div class="absolute-background">
             
         </div> -->
     </section>
 
     <!-- Choice section -->
     <section class="choice" id="yourChoice">
-        <h1 class="choice-title">Why Us</h1>
-        <h4 class="choice-subtitle">There are many reasons to get down and 
-            start to get depressed about your situation.
-        </h4>
-        <div class="choice-cards">
-            <div class="choice-card">
-                <div>
-                    <img src="./assets/icons/choice-1.svg" alt="">
-                </div>
-                <div>
-                    <h5>Ecstatic elegance</h5>
-                    <p>Article nor prepare chicken you him now. 
-                        Shy merits say advice ten before lovers innate add.
-                    </p>
-                </div>
-            </div>
-            <div class="choice-card">
-                <div>
-                    <img src="./assets/icons/choice-2.svg" alt="">
-                </div>
-                <div>
-                    <h5>Folly words widow</h5>
-                    <p>Effect if in up no depend seemed. Ecstatic elegance 
-                        gay but disposed. We me rent 
-                        been part what.
-                    </p>
-                </div>
-            </div>
-            <div class="choice-card">
-                <div>
-                    <img src="./assets/icons/choice-3.svg" alt="">
-                </div>
-                <div>
-                    <h5>Possible procured trifling</h5>
-                    <p>We me rent been part what. An concluded 
-                        sportsman offending so provision mr education.
-                    </p>
-                </div>
-            </div>
-            <div class="choice-card">
-                <div>
-                    <img src="./assets/icons/choice-4.svg" alt="">
-                </div>
-                <div>
-                    <h5>Open game</h5>
-                    <p>Shy merits say advice ten before lovers innate add.
-                         She cordially behaviour can attempted estimable.
-                    </p>
-                </div>
-            </div>
-            <div class="choice-card">
-                <div>
-                    <img src="./assets/icons/choice-5.svg" alt="">
-                </div>
-                <div>
-                    <h5>Endeavor</h5>
-                    <p>Improve ashamed married expense bed her comfort 
-                        pursuit mrs. Four time took ye your as fail lady. 
-                    </p>
-                </div>
-            </div>
-            <div class="choice-card">
-                <div>
-                    <img src="./assets/icons/choice-6.svg" alt="">
-                </div>
-                <div>
-                    <h5>Comfort pursuit</h5>
-                    <p>Had denoting properly jointure you occasion
-                         directly raillery. 
-                        In said to of poor full be post face snug.
-                    </p>
-                </div>
-            </div>
+      <h1 class="choice-title">Why Us</h1>
+      <h4 class="choice-subtitle">
+        There are many reasons to get down and start to get depressed about your
+        situation.
+      </h4>
+      <div class="choice-cards">
+        <div class="choice-card">
+          <div>
+            <img src="./assets/icons/choice-1.svg" alt="" />
+          </div>
+          <div>
+            <h5>Ecstatic elegance</h5>
+            <p>
+              Article nor prepare chicken you him now. Shy merits say advice ten
+              before lovers innate add.
+            </p>
+          </div>
         </div>
+        <div class="choice-card">
+          <div>
+            <img src="./assets/icons/choice-2.svg" alt="" />
+          </div>
+          <div>
+            <h5>Folly words widow</h5>
+            <p>
+              Effect if in up no depend seemed. Ecstatic elegance gay but
+              disposed. We me rent been part what.
+            </p>
+          </div>
+        </div>
+        <div class="choice-card">
+          <div>
+            <img src="./assets/icons/choice-3.svg" alt="" />
+          </div>
+          <div>
+            <h5>Possible procured trifling</h5>
+            <p>
+              We me rent been part what. An concluded sportsman offending so
+              provision mr education.
+            </p>
+          </div>
+        </div>
+        <div class="choice-card">
+          <div>
+            <img src="./assets/icons/choice-4.svg" alt="" />
+          </div>
+          <div>
+            <h5>Open game</h5>
+            <p>
+              Shy merits say advice ten before lovers innate add. She cordially
+              behaviour can attempted estimable.
+            </p>
+          </div>
+        </div>
+        <div class="choice-card">
+          <div>
+            <img src="./assets/icons/choice-5.svg" alt="" />
+          </div>
+          <div>
+            <h5>Endeavor</h5>
+            <p>
+              Improve ashamed married expense bed her comfort pursuit mrs. Four
+              time took ye your as fail lady.
+            </p>
+          </div>
+        </div>
+        <div class="choice-card">
+          <div>
+            <img src="./assets/icons/choice-6.svg" alt="" />
+          </div>
+          <div>
+            <h5>Comfort pursuit</h5>
+            <p>
+              Had denoting properly jointure you occasion directly raillery. In
+              said to of poor full be post face snug.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- TRAFFIC SECTION -->
     <section class="traffic" id="statistics">
-        <div class="traffic-text">
-            <h1>Increase your business <span>traffic</span></h1>
-            <p>We are committed to processing 
-                the information in order 
-                to contact you and talk about 
-                your project. 
-            </p>
-            <button class="header-sign-up">learn more</button>
-        </div>
-        <div class="traffic-right">
-            <img src="./assets/images/traffic-image.png" alt="">
-            <div class="traffic-absolute-1"></div>
-            <div class="traffic-absolute-2"></div>
-            <div class="traffic-absolute-3"></div>
-        </div>
+      <div class="traffic-text">
+        <h1>Increase your business <span>traffic</span></h1>
+        <p>
+          We are committed to processing the information in order to contact you
+          and talk about your project.
+        </p>
+        <button class="header-sign-up">learn more</button>
+      </div>
+      <div class="traffic-right">
+        <img src="./assets/images/traffic-image.png" alt="" />
+        <div class="traffic-absolute-1"></div>
+        <div class="traffic-absolute-2"></div>
+        <div class="traffic-absolute-3"></div>
+      </div>
     </section>
 
     <!-- STATISTICS SECTION -->
     <section class="statistics" id="pricing">
-        <h1 class="statistics-title">3 Simple Ways To <span>Save</span>  A Bunch 
-            Of  <span>Money</span>  When Buying A New Computer
-        </h1>
-        <p class="statistics-subtitle">Fully customizable and neatly organized components 
-            will help you work 
-            faster without limiting 
-            creative freedom.
-        </p>
-        <div class="statistics-cards">
-            <div>
-                <h3>100+</h3>
-                <p>5 Reasons To Purchase 
-                    Desktop Computers</p>
-            </div>
-            <div>
-                <h3>43,000+</h3>
-                <p>3 Simple Ways To Save A Bunch 
-                    Of Money When Buying A New Computer
-                </p>
-            </div>
-            <div>
-                <h3>30+</h3>
-                <p>A Discount Toner Cartridge
-                    Is Better Than Ever And You 
-                   Will Save 50 Or More</p>
-            </div>
+      <h1 class="statistics-title">
+        3 Simple Ways To <span>Save</span> A Bunch Of <span>Money</span> When
+        Buying A New Computer
+      </h1>
+      <p class="statistics-subtitle">
+        Fully customizable and neatly organized components will help you work
+        faster without limiting creative freedom.
+      </p>
+      <div class="statistics-cards">
+        <div>
+          <h3>100+</h3>
+          <p>5 Reasons To Purchase Desktop Computers</p>
         </div>
+        <div>
+          <h3>43,000+</h3>
+          <p>
+            3 Simple Ways To Save A Bunch Of Money When Buying A New Computer
+          </p>
+        </div>
+        <div>
+          <h3>30+</h3>
+          <p>
+            A Discount Toner Cartridge Is Better Than Ever And You Will Save 50
+            Or More
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- STARTUP SECTION -->
     <section class="startup">
-        <div class="startup-wr">
-            <h1>Create your <span>next project</span>  with startup framework</h1>
-            <button class="header-sign-up">learn more</button>
-            <img src="./assets/images/startup-background.png" alt="">
-        </div>
+      <div class="startup-wr">
+        <h1>Create your <span>next project</span> with startup framework</h1>
+        <button class="header-sign-up">learn more</button>
+        <img src="./assets/images/startup-background.png" alt="" />
+      </div>
     </section>
 
     <!-- INVEST SECTION -->
     <section class="invest" id="invest">
-        <img class="invest-background" src="./assets/images/invest-background.svg" alt="">
-        <div class="invest-wr">
-            <div class="invest-left">
-                <h1>Invest property for better <span>business</span></h1>
-                <p>We are committed to processing the information in order to contact you and talk about your project.
-                     We are committed to processing the information.
-                </p>
-                <button class="header-sign-up">learn more</button>
-            </div>
-            <div class="invest-right">
-                <img src="./assets/images/invest.png" alt="">
-            </div>
+      <img
+        class="invest-background"
+        src="./assets/images/invest-background.svg"
+        alt=""
+      />
+      <div class="invest-wr">
+        <div class="invest-left">
+          <h1>Invest property for better <span>business</span></h1>
+          <p>
+            We are committed to processing the information in order to contact
+            you and talk about your project. We are committed to processing the
+            information.
+          </p>
+          <button class="header-sign-up">learn more</button>
         </div>
+        <div class="invest-right">
+          <img src="./assets/images/invest.png" alt="" />
+        </div>
+      </div>
     </section>
 
     <!-- FEATURE -->
     <section class="feature">
-        <div class="feature-left">
-            <img src="./assets/images/feature.png" alt="">
-        </div>
-        <div class="feature-right">
-            <h3>Help Finding Information Online</h3>
-            <p>Fully customizable and neatly 
-                organized components 
-                will help you work faster 
-                without limiting creative 
-                freedom.
+      <div class="feature-left">
+        <img src="./assets/images/feature.png" alt="" />
+      </div>
+      <div class="feature-right">
+        <h3>Help Finding Information Online</h3>
+        <p>
+          Fully customizable and neatly organized components will help you work
+          faster without limiting creative freedom.
+        </p>
+        <div class="feature-cards">
+          <div class="feature-card">
+            <img src="./assets/icons/feature-icon-1.svg" alt="" />
+            <h5>Feature One</h5>
+            <p>
+              Fully customizable and neatly organized components will help you
+              work faster
             </p>
-            <div class="feature-cards">
-                <div class="feature-card">
-                    <img src="./assets/icons/feature-icon-1.svg" alt="">
-                    <h5>Feature One</h5>
-                    <p>Fully customizable and neatly 
-                        organized components will help you work faster 
-                    </p>
-                </div>
-                <div class="feature-card">
-                    <img src="./assets/icons/feature-icon-2.svg" alt="">
-                    <h5>Feature One</h5>
-                    <p>Fully customizable and neatly 
-                        organized components will help you work faster 
-                    </p>
-                </div>
-            </div>
+          </div>
+          <div class="feature-card">
+            <img src="./assets/icons/feature-icon-2.svg" alt="" />
+            <h5>Feature One</h5>
+            <p>
+              Fully customizable and neatly organized components will help you
+              work faster
+            </p>
+          </div>
         </div>
+      </div>
     </section>
-    
+
     <!-- SUBSCRIBE -->
     <section class="subscribe" id="subscribe">
-        <div class="subscribe-wr">
-            <h4>There are many reasons to get down</h4>
-            <p>There are many reasons to get down 
-                and start to get depressed about your situation. 
-            </p>
-            <div class="subscribe-input">
-                <input type="email" placeholder="Your Email">
-                <button class="header-sign-up">send</button>
-            </div>
-            <p>No spam. Only releases, updates and discounts</p>
+      <div class="subscribe-wr">
+        <h4>There are many reasons to get down</h4>
+        <p>
+          There are many reasons to get down and start to get depressed about
+          your situation.
+        </p>
+        <div class="subscribe-input">
+          <input type="email" placeholder="Your Email" />
+          <button class="header-sign-up">send</button>
         </div>
+        <p>No spam. Only releases, updates and discounts</p>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="footer-wr">
-            <div class="footer-first">
-                <h5>ARShakir</h5>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="https://www.google.com/" target="_blank">
-                                <img src="./assets/icons/gmail.svg" alt="gmail">
-                            </a>
-                        </li>                          
-                        <li>
-                            <a href="https://twitter.com/" target="_blank">
-                                <img class="twitter" src="./assets/icons/twitter.svg" alt="twitter">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank">                     
-                                <img src="./assets/icons/facebook.svg" alt="facebook">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-second">
-                <ul>
-                    <h5>first</h5>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                </ul>
-                <ul>
-                    <h5>second</h5>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                </ul>
-                <ul>
-                    <h5>third</h5>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                </ul>
-                <ul>
-                    <h5>fourth</h5>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                    <li>
-                        <a href="" class="hover-underline-animation">First link</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-third">
-                <h6> &#169; Copyrights 2021</h6>
-                <h6 class="privacy"> Privacy policy</h6>
-                <h6> Terms of service</h6>
-            </div>
+      <div class="footer-wr">
+        <div class="footer-first">
+          <h5>ARShakir</h5>
+          <div>
+            <ul>
+              <li>
+                <a href="https://www.google.com/" target="_blank">
+                  <img src="./assets/icons/gmail.svg" alt="gmail" />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <img
+                    class="twitter"
+                    src="./assets/icons/twitter.svg"
+                    alt="twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./assets/icons/facebook.svg" alt="facebook" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="footer-second">
+          <ul>
+            <h5>first</h5>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+          </ul>
+          <ul>
+            <h5>second</h5>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+          </ul>
+          <ul>
+            <h5>third</h5>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+          </ul>
+          <ul>
+            <h5>fourth</h5>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+            <li>
+              <a href="" class="hover-underline-animation">First link</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <h6>&#169; Copyrights 2021</h6>
+          <h6 class="privacy">Privacy policy</h6>
+          <h6>Terms of service</h6>
+        </div>
+      </div>
     </footer>
-    
+
     <script
-    src="https://code.jquery.com/jquery-3.6.3.min.js"
-    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-    crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
     <script src="./Js/animation.js"></script>
-</body>
+  </body>
 </html>
